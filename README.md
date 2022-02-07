@@ -27,9 +27,9 @@ $ npm start
 ```
 
 # Screenshot
-!["FIFA Stats"]()
+!["FIFA Stats"](https://raw.githubusercontent.com/kasim393/fifa-player-stats/main/src/assets/ss1.png)
 
-!["FIFA Stats"]()
+!["FIFA Stats"](https://raw.githubusercontent.com/kasim393/fifa-player-stats/main/src/assets/ss2.png)
 
 # Resource
 
