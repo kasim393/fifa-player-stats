@@ -1,0 +1,33 @@
+data={[
+             {
+              data:{
+                crossing:user.Crossing,
+                finishing:user.Finishing,
+                short:user.ShortPassing,
+                volleys:user.Volleys,
+                head:user.HeadingAccuracy,
+
+              },meta: { color: '#d7e3fc' }
+             },
+            ]}
+
+const captions = {
+    // columns
+    crossing: 'Crossing',
+    finishing: 'Finishing',
+    short: 'Short Passing',
+    volleys: 'Volleys',
+    head: 'Head Accuracy'
+  };
+  
+ crossing:stats[0],
+      finishing:stats[1],
+      short:stats[2],
+      volleys:stats[3],
+      head:stats[4],
+
+  users.map((user) => {
+      if(user.ID == path){
+        setStats([user.Crossing /100,user.Finishing/100,user.ShortPassing /100,user.Volleys/100,user.HeadingAccuracy/100]);
+      }
+       })
